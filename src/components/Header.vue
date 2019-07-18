@@ -17,7 +17,7 @@
       <v-menu offset-y>
         <v-btn flat slot="activator">Salvar & Carregar</v-btn>
         <v-list>
-          <v-list-tile v-for="item in menuList" :key="item.key" @click="callback">
+          <v-list-tile v-for="item in menuList" :key="item.key" >
             <v-list-tile-title>{{ item }}</v-list-tile-title>
           </v-list-tile>
         </v-list>
